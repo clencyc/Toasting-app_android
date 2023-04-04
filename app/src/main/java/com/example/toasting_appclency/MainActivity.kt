@@ -18,8 +18,6 @@ class MainActivity : AppCompatActivity() {
 
 
 
-
-
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -39,6 +37,9 @@ class MainActivity : AppCompatActivity() {
         }
 
         submitbutton.setOnClickListener {
+            //grab info from edittext
+            var user_data = edt_input_data.text.toString().trim()
+            Toast.makeText(this, user_data, Toast.LENGTH_SHORT).show()
 
             Toast.makeText(this, "My first toast application", Toast.LENGTH_SHORT).show()
         }
