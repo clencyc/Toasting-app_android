@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/txtdisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <EditText
+        android:hint="Enter Data"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:id="@+id/edtdata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="186dp"
+        android:text="Submit" />
+
+    <Button
+        android:layout_marginTop="240dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnsecond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Second button" />
+
+    <Button
+        android:id="@+id/btnclick"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:text="Click here" />
+</RelativeLayout>
